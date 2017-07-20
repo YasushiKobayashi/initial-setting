@@ -31,7 +31,3 @@
 
 - name: ntp start
   service: name=ntpd state=started enabled=yes
-
-- name: iptables stop
-  service: name=iptables state=stopped enabled=off
-  when: env != 'docker'
