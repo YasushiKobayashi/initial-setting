@@ -7,4 +7,4 @@ RUN yum -y update && \
 
 WORKDIR /ansible
 COPY ./ /ansible
-RUN ansible-playbook -i 'localhost' -c 'local' main.yml
+RUN ansible-playbook -i docker/hosts main.yml
