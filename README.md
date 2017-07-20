@@ -3,6 +3,7 @@
 [![Coverage Badge](https://api.shippable.com/projects/5970a17f6b05110700ae8bca/coverageBadge?branch=master)](https://app.shippable.com/github/YasushiKobayashi/initial-setting)
 
 ### install
+`ansible-galaxy install YasushiKobayashi.initial-setting`
 
 ### ansible role initial setting
 - cenos6
